@@ -1,0 +1,21 @@
+ПКМ src -> New -> Java Class
+name: HelloWorld
+
+public class HelloWorld {
+    psvm + Tab
+}
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        sout + Tab
+    }
+}
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+
+
+
