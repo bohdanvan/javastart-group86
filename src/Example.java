@@ -1,11 +1,11 @@
 /**
  * @author bvanchuhov
  */
-public class Overflow {
+public class Example {
 
     public static void main(String[] args) {
-        byte b = 127; // -128...127
-        b++;
+        long x = 1000;
+        byte b = (byte)x;
         System.out.println(b);
     }
 }
